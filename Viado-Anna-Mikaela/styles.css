@@ -9526,4 +9526,125 @@ summary {
       .pb-lg-5 {
         padding-bottom: 3rem !important;
       }
+
+      .ps-lg-0 {
+        padding-left: 0 !important;
+      }
+    
+      .ps-lg-1 {
+        padding-left: 0.25rem !important;
+      }
+    
+      .ps-lg-2 {
+        padding-left: 0.5rem !important;
+      }
+    
+      .ps-lg-3 {
+        padding-left: 1rem !important;
+      }
+    
+      .ps-lg-4 {
+        padding-left: 1.5rem !important;
+      }
+    
+      .ps-lg-5 {
+        padding-left: 3rem !important;
+      }
+    
+      .text-lg-start {
+        text-align: left !important;
+      }
+    
+      .text-lg-end {
+        text-align: right !important;
+      }
+    
+      .text-lg-center {
+        text-align: center !important;
+      }
+    }
+    @media (min-width: 1200px) {
+      .float-xl-start {
+        float: left !important;
+      }
+    
+      .float-xl-end {
+        float: right !important;
+      }
+    
+      .float-xl-none {
+        float: none !important;
+      }
+    
+      .d-xl-inline {
+        display: inline !important;
+      }
+    
+      .d-xl-inline-block {
+        display: inline-block !important;
+      }
+    
+      .d-xl-block {
+        display: block !important;
+      }
+    
+      .d-xl-grid {
+        display: grid !important;
+      }
+    
+      .d-xl-table {
+        display: table !important;
+      }
+    
+      .d-xl-table-row {
+        display: table-row !important;
+      }
+    
+      .d-xl-table-cell {
+        display: table-cell !important;
+      }
+    
+      .d-xl-flex {
+        display: flex !important;
+      }
+    
+      .d-xl-inline-flex {
+        display: inline-flex !important;
+      }
+    
+      .d-xl-none {
+        display: none !important;
+      }
+    
+      .flex-xl-fill {
+        flex: 1 1 auto !important;
+      }
+    
+      .flex-xl-row {
+        flex-direction: row !important;
+      }
+    
+      .flex-xl-column {
+        flex-direction: column !important;
+      }
+    
+      .flex-xl-row-reverse {
+        flex-direction: row-reverse !important;
+      }
+    
+      .flex-xl-column-reverse {
+        flex-direction: column-reverse !important;
+      }
+    
+      .flex-xl-grow-0 {
+        flex-grow: 0 !important;
+      }
+    
+      .flex-xl-grow-1 {
+        flex-grow: 1 !important;
+      }
+    
+      .flex-xl-shrink-0 {
+        flex-shrink: 0 !important;
+      }
 }
