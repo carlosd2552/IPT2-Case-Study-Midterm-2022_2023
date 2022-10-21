@@ -10934,4 +10934,30 @@ summary {
         padding-top: 9rem;
         padding-bottom: 9rem;
       }
+      .row-about{
+        margin-top: 25px;
+      }
+      
+      .row-about ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .row-about ul li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .row-about ul strong {
+        margin-right: 10px;
+      }
+      
+      p{
+        text-align: justify;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
 }
