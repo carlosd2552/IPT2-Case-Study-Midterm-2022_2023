@@ -10960,4 +10960,68 @@ summary {
       * {
         box-sizing: border-box;
       }
+      
+      /* SKILLS */
+.column-skills {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .row-skills {margin: 0 -65px;}
+  
+  .row-skills:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column-skills {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /*SERVICES*/
+  .column-services {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row-services {margin: 0 -65px;}
+  
+  .row-services:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column-services {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 }
