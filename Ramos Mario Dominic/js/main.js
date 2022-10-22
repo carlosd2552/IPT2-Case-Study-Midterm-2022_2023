@@ -1,7 +1,6 @@
 (function($) {
-    "use strict"; // Start of use strict
-  
-    // Smooth scrolling using jQuery easing
+    "use strict";
+
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -14,4 +13,14 @@
         }
       }
     });
-  
+   
+    $('.js-scroll-trigger').click(function() {
+        $('.navbar-collapse').collapse('hide');
+      });
+    
+     
+      $('body').scrollspy({
+        target: '#sideNav'
+      });
+    
+    })(jQuery);
